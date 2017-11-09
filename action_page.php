@@ -21,12 +21,10 @@
 		$query = mysqli_query($conn , $query);
 		$numrows = mysqli_num_rows($query);
 
-		if($numrows > 0){
-			echo "Logged In.";
-		}
+		if($numrows > 0)
+			echo "Logged In";
 		else
-			echo "Invalid Username or Password."
-
+			echo "Invalid Username or Password";
 		mysqli_close($conn);
 	?>
 </body>
