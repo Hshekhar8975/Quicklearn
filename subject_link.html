@@ -17,6 +17,12 @@
     .table{
       width: 90%;
     }
+    table { border-collapse: collapse; }
+tr { border: none; }
+td {
+  border-right: solid 1px #f00; 
+  border-left: solid 1px #f00;
+}
   </style>
   <script>
     function openNav() {
@@ -102,48 +108,70 @@
  <div class="container"> 
  <h3> SEMESTER 1 </h3>
 </br>             
-  <table class="table">
+  <table class="table" >
     <thead>
+      <tr class="p-3 mb-2 bg-primary text-white">
+        <th class="">Course code</th>
+      
+        <th class="">Semester</th>
+       
+        <th class="">Year</th>  
+       
+        <th class="">Credit</th>  
+        
+
+        <th class="">Lectures/week</th>  
+      
+        </tr>
       <tr>
-        <th class="p-3 mb-2 bg-primary text-white">Subject Code</th>
-        <th class="p-3 mb-2 bg-primary text-white">Subject</th>
-        <th class="p-3 mb-2 bg-primary text-white">Credits</th>  
+          <th>  MA101</th>
+           <th>  1</th>
+            <th> 2017</th>
+            <th> 4.00</th>
+              <th> 4</th>
+         </tr>
+         <tr>
+          <div>
+         <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white">  <p align="center">Exam Weightage </p></th> 
+         </div> 
+         <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white" >  <p align="center">        </p></th> 
+
+         <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white" ><p align="center"> Books  </p> </th>  
+         
+      </tr>
+      <tr>
+           <th colspan="2"> <p  style="color:red"align="center"> Mid term 1 : 12 % </p>
+        </th>
+         <th>      </th>
+          <th>      </th>
+         <th colspan=""> <a href="http://bookboon.com/en/introduction-to-complex-numbers-ebook#download"class="held" ><p align="center">Introduction to Complex Numbers<p>
+        </a></th>
+      </tr>
+        <tr>
+           <th colspan="2"> <p  style="color:red" align="center" color:red;> Mid term 2 : 12 %</p>
+        </th>
+       <th>      </th>
+ <th>      </th>
+         <th colspan=""> <a href="http://bookboon.com/en/introduction-to-complex-numbers-ebook#download"class="held" ><p    align="center"> complex views<p>
+        </a></th>
+      </tr>
+       </tr>
+        <tr>
+           <th colspan="2"> <p  style="color:red" align="center" color:red;> N term : 35 %</p>
+        </th>
+       <th>      </th>
+ <th>      </th>
+         <th colspan=""> <a href="http://bookboon.com/en/elementary-mathematics-for-engineers-ebook#download"class="held" ><p    align="center"> Elementary Mathematics for Engineers <p>
+        </a></th>
+      </tr>
+        </div>       
+
+</tr>
+</div>
       </tr>
     </thead>
     <tbody>
-      <tr>
-       <td>MA101</td>
-        <td><a href="">Calculus</a></td>
-        <td>3.00</td>
-      </tr>
-      <tr>
-        <td>PY101</td>
-        <td><a href="">Physics</a></td>
-        <td>4.00</td>
-      </tr>
-      <tr>
-        <td>CL102</td>
-        <td><a href="">Calculus</a></td>
-        <td>3.00</td>
-      </tr>
-      <tr>
-         <td>ME101</td>
-        <td><a href="">Engineering graphics</a></td>
-        <td>4.00</td>
-      </tr>
-      <tr>
-       <td>HM101</td>
-        <td><a href="">English - Foreign Language
-        </a></td>
-        <td>3.00</td>
-      </tr>
-      <tr>
-       <td>CS101</td>
-        <td><a href="">C programming
-        </a></td>
-        <td>4.00</td>
-      </tr>
-      <tr>
+      
     </tbody>
   </table>
 </div>
