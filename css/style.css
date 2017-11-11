@@ -4,6 +4,10 @@ body{
 #myNav{
   color: white;
 }
+# left{
+    float: left; 
+    width: 670px;
+}
 h1{
   font-family:times;
   text-align: center;
