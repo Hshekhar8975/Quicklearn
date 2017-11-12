@@ -42,28 +42,11 @@ td {
 <body>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <ul>
-      <li><a href="#" onclick="closeNav()">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">BTech
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#btech" onclick="closeNav()">CSE</a></li>
-            <li><a href="#btech" onclick="closeNav()">ECE</a></li>
-            <li><a href="#btech" onclick="closeNav()">EEE</a></li>
-            <li><a href="#btech" onclick="closeNav()">Mechanical</a></li>
-            <li><a href="#btech" onclick="closeNav()">Civil</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">LAW
-            <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#" onclick="closeNav()">Crimnal Law</a></li>
-            <li><a href="#" onclick="closeNav()">Civil Law</a></li>
-          </ul>
-        </li>
-        <li><a href="#" onclick="closeNav()">BBA</a></li>
+    <ul type="none">
+      <li><a href="index.html" onclick="closeNav()">Home</a></li>
+      <li><a href="testing.html" onclick="closeNav()">BTech</a></li>
+      <li><a href="testing_llb.html" onclick="closeNav()">LAW</a></li>
+      <li><a href="testing_bba.html" onclick="closeNav()">BBA</a></li>
     </ul>
   </div>
   <div id="main">
@@ -77,16 +60,15 @@ td {
             <a class="navbar-brand" href="#btech" style="color:white;">QuickLearn</a>
           </div>
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="">
-              <a class="" type ="button" href="#btech">BTech
+              <a class="" type ="button" href="index.html#btech">BTech
               <span class=""></span></a>
-              
             </li>
             <li class="">
-              <a href="#law" class="" type ="button">LAW</a>
+              <a href="index.html#LLB" class="" type ="button">LAW</a>
             </li>
-            <li><a href="#BBA">BBA</a></li>
+            <li><a href="index.html#BBA">BBA</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#" data-toggle="collapse" data-target="#demo"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -116,14 +98,16 @@ td {
          <h1>Bachelor of Technology(Btech)</h1>
       <div class="well well-lg" id="btech">
   <br>    
-   <h3> Digital logic </h3>
-   <div class="well well-lg" id="btech">
+   
+   <div class="well well-lg" id="diglog">
+    <h3> Digital System </h3>
   <br>    
 
  <div class="container"> 
 
-</br>             
-  <table class="table" >
+<br>             
+  <center>
+    <table class="table" >
     <thead>
       <tr class="p-3 mb-2 bg-primary text-white">
         <th class="">Course code</th>
@@ -189,14 +173,16 @@ td {
       
     </tbody>
   </table>
+  </center>
 </div>
 </div>
+<div class="well well-lg" id="oop">
 <h3>Object oriented programming</h3>
-<div class="well well-lg" id="Physics">
   <br>          
 <div class="container"> 
-</br>             
-  <table class="table" >
+<br>             
+  <center>
+    <table class="table" >
     <thead>
       <tr class="p-3 mb-2 bg-primary text-white">
         <th class="">Course code</th>
@@ -262,14 +248,16 @@ td {
       
     </tbody>
   </table>
+  </center>
 </div>
 </div>
+<div class="well well-lg" id="maths">
 <h3>Probability </h3>
-<div class="well well-lg" id="Physics">
   <br>          
 <div class="container"> 
-</br>             
-  <table class="table" >
+<br>             
+  <center>
+    <table class="table" >
     <thead>
       <tr class="p-3 mb-2 bg-primary text-white">
         <th class="">Course code</th>
@@ -335,14 +323,16 @@ td {
       
     </tbody>
   </table>
+  </center>
 </div>
 </div>
+<div class="well well-lg" id="comm">
 <h3>Communication </h3>
-<div class="well well-lg" id="Physics">
   <br>          
 <div class="container"> 
-</br>             
-  <table class="table" >
+<br>             
+  <center>
+    <table class="table" >
     <thead>
       <tr class="p-3 mb-2 bg-primary text-white">
         <th class="">Course code</th>
@@ -408,14 +398,16 @@ td {
       
     </tbody>
   </table>
+  </center>
 </div>
 </div>
+<div class="well well-lg" id="elec">
 <h3>Basics Electronic</h3>
-<div class="well well-lg" id="Physics">
   <br>          
 <div class="container"> 
-</br>             
-  <table class="table" >
+<br>             
+  <center>
+    <table class="table" >
     <thead>
       <tr class="p-3 mb-2 bg-primary text-white">
         <th class="">Course code</th>
@@ -481,14 +473,16 @@ td {
       
     </tbody>
   </table>
+  </center>
 </div>
 </div>
+<div class="well well-lg" id="ict">
 <h3>ICT Tools and Security</h3>
-<div class="well well-lg" id="Physics">
   <br>          
 <div class="container"> 
-</br>             
-  <table class="table" >
+<br>             
+  <center>
+    <table class="table" >
     <thead>
       <tr class="p-3 mb-2 bg-primary text-white">
         <th class="">Course code</th>
@@ -554,9 +548,19 @@ td {
       
     </tbody>
   </table>
+  </center>
 </div>
 </div>
- </div>    
+ </div>  
+
+ <div class="container">
+    <footer class="navbar navbar-inverse ">
+      <center>
+        <p>Copyright &copy; <br>Himanshu Shekhar, <br>Deepak Tiwari & <br>Harsh Jain.</p>
+      </center>
+    </footer>
+  </div>
+   
   <div id="id01" class="modal">
 
     <form class="modal-content animate" action="/action_page.php">

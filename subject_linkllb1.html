@@ -42,28 +42,11 @@
 <body>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <ul>
-      <li><a href="#" onclick="closeNav()">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">BTech
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#btech" onclick="closeNav()">CSE</a></li>
-            <li><a href="#btech" onclick="closeNav()">ECE</a></li>
-            <li><a href="#btech" onclick="closeNav()">EEE</a></li>
-            <li><a href="#btech" onclick="closeNav()">Mechanical</a></li>
-            <li><a href="#btech" onclick="closeNav()">Civil</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">LAW
-            <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#" onclick="closeNav()">Crimnal Law</a></li>
-            <li><a href="#" onclick="closeNav()">Civil Law</a></li>
-          </ul>
-        </li>
-        <li><a href="#" onclick="closeNav()">BBA</a></li>
+    <ul type="none">
+      <li><a href="index.html" onclick="closeNav()">Home</a></li>
+      <li><a href="testing.html" onclick="closeNav()">BTech</a></li>
+      <li><a href="testing_llb.html" onclick="closeNav()">LAW</a></li>
+      <li><a href="testing_bba.html" onclick="closeNav()">BBA</a></li>
     </ul>
   </div>
   <div id="main">
@@ -77,10 +60,10 @@
             <a class="navbar-brand" href="#btech" style="color:white;">QuickLearn</a>
           </div>
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a type ="button" href="#btech">BTech</a></li>
-            <li><a href="#law" class="" type ="button">LAW</a></li>
-            <li><a href="#BBA">BBA</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a type ="button" href="index.html#btech">BTech</a></li>
+            <li><a href="index.html#LLB" type ="button">LAW</a></li>
+            <li><a href="index.html#BBA">BBA</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#" data-toggle="collapse" data-target="#demo"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -115,49 +98,51 @@
         <br>    
         <div class="container"> 
           <br/>             
-          <table class="table" >
-            <thead>
-              <tr class="p-3 mb-2 bg-primary text-white">
-                <th class="">Course code</th>
-                <th class="">Semester</th>       
-                <th class="">Year</th>         
-                <th class="">Credit</th>          
-                <th class="">Lectures/week</th>  
-              </tr>
-              <tr>
-                <th> 2BL112</th>
-                <th>  1</th>
-                <th> 2017</th>
-                <th> 5.00</th>
-                <th> 3</th>
-              </tr>
-              <tr>
-                <div>
-                  <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
-                </div> 
-                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
-                <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white" ><p align="center"> Books  </p> </th>  
-              </tr>
-              <tr>
-                <th colspan="2"><p style="color:red"align="center"> Mid term 1 : 12 % </p></th>
-                <th>      </th>
-                <th>      </th>
-                <th colspan=""><a href="" class="held" ><p align="center"></p></a></th>
-              </tr>
-              <tr>
-                <th colspan="2"><p style="color:red" align="center" color:red;> Mid term 2 : 12 %</p></th>
-                <th>      </th>
-                <th>      </th>
-                 <th colspan=""><a href="https://www.amazon.in/Indian-Government-Politics-Peu-Ghosh-ebook/dp/B00K7A72CW" class="held" ><p    align="center"> Indian Government and Politics Kindle Edition</p></a></th>
-              </tr>
-              <tr>
-                <th colspan="2"><p  style="color:red" align="center"> N term : 35 %</p></th>
-                <th>      </th>
-                <th>      </th>
-                <th colspan=""><a href="" class="held" ><p align="center"> </p></a></th>
-              </tr>
-            </thead>
-          </table>
+          <center>
+            <table class="table" >
+              <thead>
+                <tr class="p-3 mb-2 bg-primary text-white">
+                  <th class="">Course code</th>
+                  <th class="">Semester</th>       
+                  <th class="">Year</th>         
+                  <th class="">Credit</th>          
+                  <th class="">Lectures/week</th>  
+                </tr>
+                <tr>
+                  <th> 2BL112</th>
+                  <th>  1</th>
+                  <th> 2017</th>
+                  <th> 5.00</th>
+                  <th> 3</th>
+                </tr>
+                <tr>
+                  <div>
+                    <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
+                  </div> 
+                  <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
+                  <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white" ><p align="center"> Books  </p> </th>  
+                </tr>
+                <tr>
+                  <th colspan="2"><p style="color:red"align="center"> Mid term 1 : 12 % </p></th>
+                  <th>      </th>
+                  <th>      </th>
+                  <th colspan=""><a href="" class="held" ><p align="center"></p></a></th>
+                </tr>
+                <tr>
+                  <th colspan="2"><p style="color:red" align="center" color:red;> Mid term 2 : 12 %</p></th>
+                  <th>      </th>
+                  <th>      </th>
+                   <th colspan=""><a href="https://www.amazon.in/Indian-Government-Politics-Peu-Ghosh-ebook/dp/B00K7A72CW" class="held" ><p    align="center"> Indian Government and Politics Kindle Edition</p></a></th>
+                </tr>
+                <tr>
+                  <th colspan="2"><p  style="color:red" align="center"> N term : 35 %</p></th>
+                  <th>      </th>
+                  <th>      </th>
+                  <th colspan=""><a href="" class="held" ><p align="center"> </p></a></th>
+                </tr>
+              </thead>
+            </table>
+          </center>
         </div>       
     </div>
   </div>
@@ -167,49 +152,51 @@
     <div class="well well-lg" id="btech">         
       <div class="container"> 
         <br>             
-        <table class="table" >
-          <thead>
-            <tr class="p-3 mb-2 bg-primary text-white">
-              <th class="">Course code</th>
-              <th class="">Semester</th>
-              <th class="">Year</th>  
-              <th class="">Credit</th>  
-              <th class="">Lectures/week</th>  
-            </tr>
-            <tr>
-              <th>2BL110</th>
-              <th>  1</th>
-              <th> 2017</th>
-              <th> 3.00</th>
-              <th> 2</th>
-            </tr>
-            <tr>
-              <div>
-                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
-              </div> 
-              <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
-              <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"> Books</p></th>  
-            </tr>
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center"> Mid term 1 : 12 % </p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""> <a href="" class="held" ><p align="center"> </p></a></th>
-            </tr>
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center"> Mid term 2 : 12 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""> <a href="" class="held" ><p align="center">Foundations of Economic Analysis, Enlarged Edition (Harvard Economic Studies)</p></a></th>
-            </tr>
-            <tr>
-              <th colspan="2"><p style="color:red" align="center"> N term : 35 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""><a href="" class="held"> <p align="center"> </p></a></th>
-            </tr>
-          </thead>
-        </table>
+        <center>
+          <table class="table" >
+            <thead>
+              <tr class="p-3 mb-2 bg-primary text-white">
+                <th class="">Course code</th>
+                <th class="">Semester</th>
+                <th class="">Year</th>  
+                <th class="">Credit</th>  
+                <th class="">Lectures/week</th>  
+              </tr>
+              <tr>
+                <th>2BL110</th>
+                <th>  1</th>
+                <th> 2017</th>
+                <th> 3.00</th>
+                <th> 2</th>
+              </tr>
+              <tr>
+                <div>
+                  <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
+                </div> 
+                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
+                <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"> Books</p></th>  
+              </tr>
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center"> Mid term 1 : 12 % </p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""> <a href="" class="held" ><p align="center"> </p></a></th>
+              </tr>
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center"> Mid term 2 : 12 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""> <a href="" class="held" ><p align="center">Foundations of Economic Analysis, Enlarged Edition (Harvard Economic Studies)</p></a></th>
+              </tr>
+              <tr>
+                <th colspan="2"><p style="color:red" align="center"> N term : 35 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""><a href="" class="held"> <p align="center"> </p></a></th>
+              </tr>
+            </thead>
+          </table>
+        </center>
       </div>
     </div>
   </div>  
@@ -219,49 +206,51 @@
     <div class="well well-lg" id="btech">  
       <div class="container"> 
         <br>             
-        <table class="table" >
-          <thead>
-            <tr class="p-3 mb-2 bg-primary text-white">
-              <th class="">Course code</th>      
-              <th class="">Semester</th>
-              <th class="">Year</th>           
-              <th class="">Credit</th>          
-              <th class="">Lectures/week</th>        
-            </tr>
-            <tr>
-              <th>  2BL115</th>
-              <th>  1</th>
-              <th> 2017</th>
-              <th> 3.00</th>
-              <th> 3</th>
-            </tr>
-            <tr>
-              <div>
-                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th> 
-              </div> 
-              <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white" ><p align="center"></p></th> 
-              <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white" ><p align="center"> Books</p></th>           
-            </tr>
-            <tr>
-              <th colspan="2"><p  style="color:red"align="center"> Mid term 1 : 12 % </p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""><a href="" class="held" ><p align="center"></p></a></th>
-            </tr>
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center" color:red;> Mid term 2 : 12 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""> <a href="https://books.google.co.in/books/about/Law_and_Society.html?id=xACjBAAAQBAJ&redir_esc=y" class="held" ><p    align="center">Law and Society</p></a></th>
-            </tr>          
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center"> N term : 35 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""> <a href="http://bookboon.com/en/elementary-mathematics-for-engineers-ebook#download" class="held" ><p align="center"> </p></a></th>
-            </tr>
-          </thead>
-        </table>
+        <center>
+          <table class="table" >
+            <thead>
+              <tr class="p-3 mb-2 bg-primary text-white">
+                <th class="">Course code</th>      
+                <th class="">Semester</th>
+                <th class="">Year</th>           
+                <th class="">Credit</th>          
+                <th class="">Lectures/week</th>        
+              </tr>
+              <tr>
+                <th>  2BL115</th>
+                <th>  1</th>
+                <th> 2017</th>
+                <th> 3.00</th>
+                <th> 3</th>
+              </tr>
+              <tr>
+                <div>
+                  <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th> 
+                </div> 
+                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white" ><p align="center"></p></th> 
+                <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white" ><p align="center"> Books</p></th>           
+              </tr>
+              <tr>
+                <th colspan="2"><p  style="color:red"align="center"> Mid term 1 : 12 % </p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""><a href="" class="held" ><p align="center"></p></a></th>
+              </tr>
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center" color:red;> Mid term 2 : 12 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""> <a href="https://books.google.co.in/books/about/Law_and_Society.html?id=xACjBAAAQBAJ&redir_esc=y" class="held" ><p    align="center">Law and Society</p></a></th>
+              </tr>          
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center"> N term : 35 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""> <a href="http://bookboon.com/en/elementary-mathematics-for-engineers-ebook#download" class="held" ><p align="center"> </p></a></th>
+              </tr>
+            </thead>
+          </table>
+        </center>
       </div>
     </div>
   </div>
@@ -271,49 +260,51 @@
     <div class="well well-lg" id="btech">         
       <div class="container"> 
         <br>             
-        <table class="table" >
-          <thead>
-            <tr class="p-3 mb-2 bg-primary text-white">
-              <th class="">Course code</th>
-              <th class="">Semester</th>
-              <th class="">Year</th>  
-              <th class="">Credit</th>  
-              <th class="">Lectures/week</th>  
-            </tr>
-            <tr>
-              <th>  2BL116</th>
-              <th>  1</th>
-              <th> 2017</th>
-              <th> 3.00</th>
-              <th> 4</th>
-            </tr>
-            <tr>
-              <div>
-                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
-              </div> 
-              <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
-              <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"> Books</p></th>  
-            </tr>
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center"> Mid term 1 : 12 % </p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""> <a href="" class="held" ><p align="center"></p></a></th>
-            </tr>
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center"> Mid term 2 : 12 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""><a href="http://www.hup.harvard.edu/catalog.php?isbn=9780674032460" class="held" ><p    align="center">Law and Literature </p></a></th>
-            </tr>
-            <tr>
-              <th colspan="2"><p style="color:red" align="center"> N term : 35 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""><a href="" class="held"> <p align="center"> </p></a></th>
-            </tr>
-          </thead>
-        </table>
+        <center>
+          <table class="table" >
+            <thead>
+              <tr class="p-3 mb-2 bg-primary text-white">
+                <th class="">Course code</th>
+                <th class="">Semester</th>
+                <th class="">Year</th>  
+                <th class="">Credit</th>  
+                <th class="">Lectures/week</th>  
+              </tr>
+              <tr>
+                <th>  2BL116</th>
+                <th>  1</th>
+                <th> 2017</th>
+                <th> 3.00</th>
+                <th> 4</th>
+              </tr>
+              <tr>
+                <div>
+                  <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
+                </div> 
+                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
+                <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"> Books</p></th>  
+              </tr>
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center"> Mid term 1 : 12 % </p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""> <a href="" class="held" ><p align="center"></p></a></th>
+              </tr>
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center"> Mid term 2 : 12 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""><a href="http://www.hup.harvard.edu/catalog.php?isbn=9780674032460" class="held" ><p    align="center">Law and Literature </p></a></th>
+              </tr>
+              <tr>
+                <th colspan="2"><p style="color:red" align="center"> N term : 35 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""><a href="" class="held"> <p align="center"> </p></a></th>
+              </tr>
+            </thead>
+          </table>
+        </center>
       </div>
     </div>
   </div>
@@ -323,52 +314,62 @@
     <div class="well well-lg" id="btech">         
       <div class="container"> 
         <br>             
-        <table class="table" >
-          <thead>
-            <tr class="p-3 mb-2 bg-primary text-white">
-              <th class="">Course code</th>
-              <th class="">Semester</th>
-              <th class="">Year</th>  
-              <th class="">Credit</th>  
-              <th class="">Lectures/week</th>  
-            </tr>
-            <tr>
-              <th>  2BL117</th>
-              <th>  1</th>
-              <th> 2017</th>
-              <th> 3.00</th>
-              <th> 2</th>
-            </tr>
-            <tr>
-              <div>
-                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
-              </div> 
-              <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
-              <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"> Books</p></th>  
-            </tr>
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center"> Mid term 1 : 12 % </p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""> <a href="" class="held" ><p align="center"></p></a></th>
-            </tr>
-            <tr>
-              <th colspan="2"> <p  style="color:red" align="center"> Mid term 2 : 12 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""><a href="https://debate.uvm.edu/dcpdf/crocker_argumentationanddebate_1962_part1.pdf
-                " class="held" ><p    align="center">Debate and argumentative skill</p></a></th>
-            </tr>
-            <tr>
-              <th colspan="2"><p style="color:red" align="center"> N term : 35 %</p></th>
-              <th>      </th>
-              <th>      </th>
-              <th colspan=""><a href="" class="held"> <p align="center"> </p></a></th>
-            </tr>
-          </thead>
-        </table>
+        <center>
+          <table class="table" >
+            <thead>
+              <tr class="p-3 mb-2 bg-primary text-white">
+                <th class="">Course code</th>
+                <th class="">Semester</th>
+                <th class="">Year</th>  
+                <th class="">Credit</th>  
+                <th class="">Lectures/week</th>  
+              </tr>
+              <tr>
+                <th>  2BL117</th>
+                <th>  1</th>
+                <th> 2017</th>
+                <th> 3.00</th>
+                <th> 2</th>
+              </tr>
+              <tr>
+                <div>
+                  <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center">Exam Weightage </p></th>
+                </div> 
+                <th colspan="2" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"></p></th> 
+                <th colspan="" align="center" class="p-3 mb-2 bg-primary text-white"><p align="center"> Books</p></th>  
+              </tr>
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center"> Mid term 1 : 12 % </p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""> <a href="" class="held" ><p align="center"></p></a></th>
+              </tr>
+              <tr>
+                <th colspan="2"> <p  style="color:red" align="center"> Mid term 2 : 12 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""><a href="https://debate.uvm.edu/dcpdf/crocker_argumentationanddebate_1962_part1.pdf
+                  " class="held" ><p    align="center">Debate and argumentative skill</p></a></th>
+              </tr>
+              <tr>
+                <th colspan="2"><p style="color:red" align="center"> N term : 35 %</p></th>
+                <th>      </th>
+                <th>      </th>
+                <th colspan=""><a href="" class="held"> <p align="center"> </p></a></th>
+              </tr>
+            </thead>
+          </table>
+        </center>
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <footer class="navbar navbar-inverse ">
+      <center>
+        <p>Copyright &copy; <br>Himanshu Shekhar, <br>Deepak Tiwari & <br>Harsh Jain.</p>
+      </center>
+    </footer>
   </div>
   
   <div id="id01" class="modal">
